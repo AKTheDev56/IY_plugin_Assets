@@ -33,7 +33,7 @@ local Plugin = {
             ["Description"] = "Un-loops raining tacos",
             ["Aliases"] = {"unlooptacos","untacoloop","unlooptaco"},
             ["Function"] = function(args,speaker)
-			  loadstring(game:HttpGet("https://raw.githubusercontent.com/AKTheDev56/IY_plugin_Assets/refs/heads/main/soundloopfalse.lua",true))()
+	      loadstring(game:HttpGet("https://raw.githubusercontent.com/AKTheDev56/IY_plugin_Assets/refs/heads/main/soundloopfalse.lua",true))()
             end
         },
 	["rainrealtacos"] = {
@@ -49,7 +49,7 @@ local Plugin = {
             ["Description"] = "Stops actually raining tacos",
             ["Aliases"] = {"unrealtaco","unrainrealtacos"},
             ["Function"] = function(args,speaker)
-                loadstring(game:HttpGet("https://raw.githubusercontent.com/AKTheDev56/IY_plugin_Assets/refs/heads/main/untacorain.lua",true))()
+              loadstring(game:HttpGet("https://raw.githubusercontent.com/AKTheDev56/IY_plugin_Assets/refs/heads/main/untacorain.lua",true))()
             end
         }
 		
