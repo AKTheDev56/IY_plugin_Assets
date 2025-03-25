@@ -6,3 +6,4 @@ sound.Looped = false
 sound.PlayOnRemove = false
 sound.Parent = workspace
 sound:Play()
+1
