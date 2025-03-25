@@ -12,7 +12,7 @@ local Plugin = {
               loadstring(game:HttpGet("https://raw.githubusercontent.com/AKTheDev56/IY_plugin_Assets/refs/heads/main/soundplay.lua",true))()  
             end
         },
-		["stoprainingtacos"] = {
+	["stoprainingtacos"] = {
             ["ListName"] = "stoprainingtacos",
             ["Description"] = "Stops playing raining tacos",
             ["Aliases"] = {"unraintacos","untacos","untacosrain"},
@@ -28,7 +28,7 @@ local Plugin = {
               loadstring(game:HttpGet("https://raw.githubusercontent.com/AKTheDev56/IY_plugin_Assets/refs/heads/main/soundlooptrue.lua",true))()
             end
         },
-		["unlooprainingtacos"] = {
+	["unlooprainingtacos"] = {
             ["ListName"] = "unlooprainingtacos",
             ["Description"] = "Un-loops raining tacos",
             ["Aliases"] = {"unlooptacos","untacoloop","unlooptaco"},
@@ -36,7 +36,7 @@ local Plugin = {
 			  loadstring(game:HttpGet("https://raw.githubusercontent.com/AKTheDev56/IY_plugin_Assets/refs/heads/main/soundloopfalse.lua",true))()
             end
         },
-		["rainrealtacos"] = {
+	["rainrealtacos"] = {
             ["ListName"] = "rainrealtacos",
             ["Description"] = "Actually rains tacos",
             ["Aliases"] = {"realraintaco","realtaco"},
@@ -44,7 +44,7 @@ local Plugin = {
              loadstring(game:HttpGet("https://raw.githubusercontent.com/AKTheDev56/IY_plugin_Assets/refs/heads/main/raintacos.lua",true))()
             end
         },
-		["unrealtacorain"] = {
+	["unrealtacorain"] = {
             ["ListName"] = "unrealraintacos",
             ["Description"] = "Stops actually raining tacos",
             ["Aliases"] = {"unrealtaco","unrainrealtacos"},
