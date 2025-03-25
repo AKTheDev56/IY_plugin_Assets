@@ -1,7 +1,7 @@
 --hi mods :D (if your not a mod, then uh, dont steal my plugin pls :3
 local Plugin = {
     ["PluginName"] = "rainingtacos",
-	["PluginCreator"] = "Nachos AKA robloxgamingidk#2927",
+    ["PluginCreator"] = "Nachos AKA robloxgamingidk#2927",
     ["PluginDescription"] = "Plays Raining Tacos whenever you want to!",
     ["Commands"] = {
         ["playrainingtacos"] = {
