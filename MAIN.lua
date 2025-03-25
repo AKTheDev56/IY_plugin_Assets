@@ -17,7 +17,7 @@ local Plugin = {
             ["Description"] = "Stops playing raining tacos",
             ["Aliases"] = {"unraintacos","untacos","untacosrain"},
             ["Function"] = function(args,speaker)
-             loadstring(game:HttpGet("https://raw.githubusercontent.com/AKTheDev56/IY_plugin_Assets/refs/heads/main/soundstop.lua",true))()
+              loadstring(game:HttpGet("https://raw.githubusercontent.com/AKTheDev56/IY_plugin_Assets/refs/heads/main/soundstop.lua",true))()
             end
         },
         ["rainingtacosloop"] = {
