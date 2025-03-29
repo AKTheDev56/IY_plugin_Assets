@@ -1,4 +1,11 @@
---hi mods :D (if your not a mod, then uh, dont steal my plugin pls :3
+--hi mods :D (if your not a mod, then uh, dont steal my plugin pls :3 (note, the folder creation is for future projects)
+local function folderExists(folderPath)
+    return pcall(function() return makefolder(folderPath) end)
+end
+
+if not folderExists("NachosPluginAssets") then
+    makefolder("NachosPluginAssets")
+end
 local Plugin = {
     ["PluginName"] = "rainingtacos",
     ["PluginCreator"] = "Nachos AKA robloxgamingidk#2927",
